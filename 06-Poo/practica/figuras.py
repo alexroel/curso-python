@@ -26,7 +26,7 @@ class Rectangulo(Figura):
     def __str__(self):
         return f'{self.nombre}[base:{self.base} altura:{self.altura}]'
 
-class Circulo(object):
+class Circulo(Figura):
     def __init__(self, radio):
         self.nombre = __class__.__name__
         self.radio = radio
